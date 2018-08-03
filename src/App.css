@@ -1,0 +1,284 @@
+.amenities-container {
+  /* position: absolute; */
+  /* left: 28.75%;
+  right: 7.34%;
+  top: 5.08%;
+  bottom: 5.34%; */
+  /* height: 4494px; */
+  width: 818px;
+  
+  background: #FFFFFF;
+  /* box-shadow: 0px 2px 0px #EDEEF0; */
+}
+
+.amenities-heading {
+  position: relative;
+  top: 66px;
+  left: 4%;
+  font-family: Alleyn;
+  /* font-family: alleyn_regularregular; */
+  /* font-family: alleynsemibold; */
+  line-height: normal;
+  font-size: 34px;
+  color: #2A2C37;
+}
+
+.activities-heading {
+  position: relative;
+  top: 192px;
+  left: -106px !important;
+  font-family: Alleyn;
+  line-height: normal;
+  font-size: 22px;
+  color: #2A2C37;
+}
+
+.popular-amenities-description {
+  margin-top: 195px;
+  margin-left: 472px;
+  height: 44px;
+  width: 209px;
+  background: #55586F;
+  border-radius: 4px;
+}
+
+.popular-amenity-star {
+  position: relative;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+
+.description {
+  position: relative;
+  padding-left: 8%;
+  padding-right: 4%;
+  top: -50%;
+  left: 5%;
+  font-family: Alleyn;
+  line-height: 14px;
+  font-size: 12px;  
+}
+
+.checkboxes {
+  position: absolute;
+  top: 300px;
+}
+
+.checkboxes-class {
+  left: 3.5%;
+}
+
+.checkboxes-class-secondHalf {
+  left: 35%;
+}
+
+.default-checkboxes{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  display: none;
+  /* visibility: hidden; */
+  /* left: 99999px; */
+  /* appearance: none; */
+}
+
+.material-icons.checked {
+  /* position: absolute; */
+  position: relative;
+  /* left: 43px; */
+  /* top: 263px; */
+  margin-top: -4.7px;
+  margin-left: -2px;
+  /* font-family: Material-Design-Iconic-Font; */
+  line-height: normal;
+  /* background: #55586F; */
+  color: #55586F;
+  /* color: #FFFFFF; */
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  font-size: 18px;
+  /* width: 28px; */
+  /* height: 28px; */
+}
+
+.material-icons.checked.secondHalf {
+  position: relative;
+  /* left: 32%; */
+  /* left: 452px; */
+  /* top: 263px; */
+  margin-top: -4.7px;
+  margin-left: -2px;
+  /* font-family: Material-Design-Iconic-Font; */
+  /* line-height: normal; */
+  font-size: 18px;
+  /* background: #55586F; */
+  color: #55586F;
+  /* color: #FFFFFF; */
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.material-icons.unchecked {
+  /* position: absolute; */
+  /* left: 5%; */
+  /* left: 45px; */
+  /* top: 263px; */
+  position: relative;
+  line-height: normal;
+  background: #FFFFFF;
+  border: 1px solid #DDDEE2;
+  box-sizing: border-box;
+  box-shadow: inset 0px 2px 0px #DDDEE2;
+  border-radius: 4px;
+  text-align: left;
+  height: 15px;
+  width: 15px;
+}
+
+.material-icons.unchecked.secondHalf {
+  position: relative;
+  /* left: 33%; */
+  /* left: 454px; */
+  /* top: 263px; */
+  line-height: normal;
+  background: #FFFFFF;
+  border: 1px solid #DDDEE2;
+  box-sizing: border-box;
+  box-shadow: inset 0px 2px 0px #DDDEE2;
+  border-radius: 4px;
+  text-align: left;
+  height: 15px;
+  width: 15px;
+}
+
+.checked-checkboxes-label {
+  /* position: absolute; */
+  /* left: 84px; */
+  /* top: 282px; */
+  /* margin-top: -24px; */
+  /* margin-top: -15px; */
+  /* margin-left: 25px; */
+  position: relative;
+  top: -25px;
+  left: 25% !important;
+  font-family: Alleyn;
+  line-height: normal;
+  font-size: 16px;
+  color: #2A2C37;
+}
+
+.checked-checkboxes-label-secondHalf {
+  /* position: absolute; */
+  /* left: 454px; */
+  /* margin-top: -4.7px; */
+  /* margin-left: 25px; */
+  position: relative;
+  top: -25px;
+  left: 25% !important;
+  font-family: Alleyn;
+  line-height: normal;
+  font-size: 16px;
+  color: rgb(90, 95, 122);
+}
+
+.unchecked-checkboxes-label {
+  /* position: absolute; */
+  /* left: 84px; */
+  /* top: 0px; */
+  /* margin-top: -4.7px; */
+  /* margin-left: 25px; */
+  position: relative;
+  top: -25px;
+  left: 25% !important;
+  font-family: Alleyn;
+  line-height: normal;
+  font-size: 16px;
+  color: #79798C;
+}
+
+.unchecked-checkboxes-label-secondHalf {
+  /* position: absolute; */
+  /* left: 454px; */
+  /* top: 0px; */
+  /* margin-top: -4.7px; */
+  /* margin-left: 25px; */
+  position: relative;
+  top: -25px;
+  left: 25% !important;
+  font-family: Alleyn;
+  line-height: normal;
+  font-size: 16px;
+  color: #79798C;
+}
+
+.material-icons.md-18.grade {
+  /* position: absolute; */
+  /* font-family: Material-Design-Iconic-Font; */
+  position: relative;
+  top: 2px;
+  left: 2px;
+  line-height: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #ECE086;
+}
+
+.material-icons.md-18.grade.secondHalf {
+  /* position: absolute; */
+  /* font-family: Material-Design-Iconic-Font; */
+  position: relative;
+  top: 2px;
+  left: 2px;
+  line-height: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #ECE086;
+}
+
+.collapse-show-less {
+  position: relative;
+  text-align: center;
+  top: 250px;
+  font-family: Alleyn;
+  line-height: normal;
+  font-size: 16px;
+  color: #26CAD3;
+}
+
+.horizontal-line {
+  position: relative;
+  top: 325px;
+  mix-blend-mode: normal;
+  opacity: 0.62;
+  border: 1px solid #DDDEE2;
+}
+
+.reset-button {
+  position: relative;
+  top: 375px;
+  /* left: 600px; */
+  background-color: white;
+  border: 1px solid #2A2C37;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 98px;
+  height: 50px;
+  font-size: 18px;
+}
+
+.submit-button {
+  position: relative;
+  top: 375px;
+  left: 1%;
+  background: #26CAD3;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  width: 98px;
+  height: 50px;
+  font-size: 18px;
+}
